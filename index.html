@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CookPage</title>
+  <link rel="stylesheet" href="cook.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-logo">
+        <img src="./images/logo.png"></img>
+        <p>誰でも作れる簡単料理レシピ掲載サイト</p>
+      </div>
+      <div class="header-search">
+        <form action="#">
+          <input type="text" name="recipe" placeholder="料理名・食材名で検索">
+          <input type="submit" value="レシピ検索">
+        </form>
+      </div>
+      <ul class="header-list">
+        <li><a href="#">新着レシピ</a></li>
+        <li><a href="#">料理から検索</a></li>
+        <li><a href="#">食材から検索</a></li>
+        <li><a href="#">旬の料理特集</a></a></li>
+        <li><a href="#">ランキング</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="clearfix container">
+    <!--<div class="main_view">-->
+    <img class="main_view" src="./images/mainView.jpg">
+    <!--</div>-->
+
+    <nav>
+      <section class="recipe menu">
+        <h2 class="title"><span><img class="dish" src="./images/dish.png"></span>料理別レシピ</h2>
+        <ul>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>和食</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>イタリアン</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>フレンチ</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>中華</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>アジアン</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>エスニック</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>鍋</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>デザート</a></li>
+        </ul>
+      </section>
+      <section class="recipe menu">
+        <h2 class="title"><span><img class="dish" src="./images/dish.png"></span>目的別レシピ</h2>
+        <ul>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>お弁当</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>簡単おかず</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>ダイエット</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>ベビーフード</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>節約食材</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>アレルギー</a></li>
+          <li><a href="#"><span><img class="arrow" src="./images/arrow.png"></span>シニア料理</a></li>
+        </ul>
+      </section>
+    </nav>
+
+    <ariticle>
+      <section class="recipe new">
+        <h2 class="title"><span><img class="dish" src="./images/dish.png"></span>新着レシピ</h2>
+        <ul class="new_recipe">
+          <li>
+            <img src="./images/newRecipes1.jpg">
+            <p>季節菜の彩り前菜</p>
+          </li>
+          <li>
+            <img src="./images/newRecipes2.jpg">
+            <p>簡単かぼちゃスープ</p>
+          </li>
+          <li>
+            <img src="./images/newRecipes3.jpg">
+            <p>ヘルシー米粉パン</p>
+          </li>
+          <li>
+            <img src="./images/newRecipes4.jpg">
+            <p>ぷりぷり海老料理</p>
+          </li>
+          <li>
+            <img src="./images/newRecipes5.jpg">
+            <p>かんたん鴨南蛮</p>
+          </li>
+        </ul>
+      </section>
+      <section class="./images/recipe japan_food">
+        <h2 class="title"><span><img class="dish" src="./images/dish.png"></span>今だからこそ見直したい「和食」</h2>
+        <img class="topics" src="./images/topics.jpg">
+        <section>
+          <p class="indent">
+            普段、私たちが何気なく口にしている和食ですが、その基本は一汁三菜。ご飯、味噌汁、お漬物の他、主食（魚またはお肉）、副菜として季節毎の野菜と豆類で構成されます。
+          </p>
+          <p>
+            昔から「旬の野菜を食べましょう」と言いますが、それは素材がじっくりと時間をかけて蓄積してきた旨みや栄養価が最高になったところでいただいて、効率よく栄養を取り風邪などの予防をしましょうね、ということです。
+          </p>
+          <p>
+            それでは各季節毎の旬の野菜について調べてみましょう。
+          </p>
+          <a href="#"><span><img class="arrow" src="./images/arrow.png"></span>続きを読む</a>
+        </section>
+      </section>
+      <section class="recipe pick_up">
+        <h2 class="title"><span><img class="dish" src="./images/dish.png"></span>簡単！おすすめレシピ</h2>
+        <div>
+          <img class="push" src="./images/pushRecipes1.jpg">
+          <section>
+            <h3>季節の食材～春～</h3>
+            <p class="indent">
+              新たまねぎに春キャベツ、新じゃが、山菜などなど・・・春の野菜は風味が良くみずみずしいのが特徴です。
+            </p>
+            <p>
+              それでは春野菜を使ったレシピを紹介しましょう。
+            </p>
+            <a href="#"><span><img class="arrow" src="./images/arrow.png"></span>続きを読む</a>
+          </section>
+        </div>
+        <div>
+          <img class="push" src="./images/pushRecipes2.jpg">
+          <section>
+            <h3>春野菜を食べて花粉症予防？！ </h3>
+            <p class="indent">
+              春になると花粉症に悩まされる人は多いと思います。この花粉症、ある食材を取ることで少し緩和されるんです！
+            </p>
+            <p>
+              さて、その食材とは・・・？
+            </p>
+            <a href="#"><span><img class="arrow" src="./images/arrow.png"></span>続きを読む</a>
+          </section>
+        </div>
+      </section>
+    </ariticle>
+
+    <aside>
+      <a href="#"><img src="./images/right1.png"></a>
+      <a href="#"><img src="./images/right2.png"></a>
+    </aside>
+  </div>
+  <footer>
+    <ul class="footer-list">
+      <li><a href="#">サイトマップ</a></li>
+      <li><a href="#">プライバシーポリシー</a></li>
+      <li><a href="#">お問い合わせ</a></li>
+      <li><a href="#">ご利用ガイド</a></li>
+    </ul>
+    <p><small>Copyright &copy; CodeCamp All Rights Reserved.</small></p>
+  </footer>
+</body>
+
+
+</html>
